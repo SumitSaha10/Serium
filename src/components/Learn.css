@@ -1,0 +1,119 @@
+.learn {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
+}
+
+.learn-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 100%;
+    margin-left: 4rem;
+    padding: 1rem;
+}
+
+.learn-box p {
+    color: rgb(128, 126, 126);
+}
+
+.learn-box .learn-box-heading {
+    font-size: 4rem;
+    font-weight: bold;
+
+}
+
+.learn-box .learn-box-description {
+    font-size: 1.4rem;
+    color: rgb(128, 126, 126);
+
+}
+
+.learn-box .learn-box-btn {
+    padding: 1.5rem;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    border-radius: 55px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.learn-box .learn-box-btn:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+
+}
+
+@media (max-width:900px) {
+    .learn-box {
+        width: 60%;
+    }
+
+    .learn-box .learn-box-heading {
+        font-size: 3rem;
+        font-weight: bold;
+
+    }
+
+    .learn-box .learn-box-description {
+        font-size: 1.2rem;
+
+
+    }
+
+    .learn-box .learn-box-btn {
+        padding: 0.8rem;
+
+    }
+}
+
+@media (max-width:600px) {
+    .learn-box {
+        width: 70%;
+    }
+
+    .learn-box .learn-box-heading {
+        font-size: 2.5rem;
+        font-weight: bold;
+
+    }
+
+    .learn-box .learn-box-description {
+        font-size: 1rem;
+
+
+    }
+
+    .learn-box .learn-box-btn {
+        padding: 0.8rem;
+
+
+    }
+}
+
+@media (max-width:400px) {
+    .learn-box {
+        width: 60%;
+    }
+
+    .learn-box .learn-box-heading {
+        font-size: 2rem;
+        font-weight: bold;
+
+    }
+
+    .learn-box .learn-box-description {
+        font-size: 0.8rem;
+
+
+    }
+
+    .learn-box .learn-box-btn {
+        padding: 0.6rem;
+
+
+    }
+}
