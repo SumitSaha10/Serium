@@ -1,9 +1,15 @@
 import React from 'react'
 import './Features.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Features = () => {
+    AOS.init({
+        offset: 200,
+        duration: 800
+    });
     return (
-        <div className='features' id='feature'>
+        <div className='features' id='feature' data-aos="fade-left">
             <div className='box box1'>
                 <i class="fa-brands fa-bitcoin"></i>
                 <div className='sub-features'>

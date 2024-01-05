@@ -1,9 +1,15 @@
 import React from 'react'
 import './Learn.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Learn = () => {
+    AOS.init({
+        offset: 200,
+        duration: 1000
+    })
     return (
-        <div className='learn' id='learn'>
-            <div className='learn-box'>
+        <div className='learn' id='learn' data-aos='fade-left'>
+            <div className='learn-box' >
                 <p>THE SOLUTION</p>
                 <div className='learn-box-heading'>
                     IT’S TIME TO TAKE BACK CONTROL
