@@ -8,7 +8,7 @@ const Learn = () => {
         duration: 1000
     })
     return (
-        <div className='learn' id='learn' data-aos='fade-left'>
+        <div className='learn' id='learn' data-aos='fade-right'>
             <div className='learn-box' >
                 <p>THE SOLUTION</p>
                 <div className='learn-box-heading'>

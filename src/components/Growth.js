@@ -8,7 +8,7 @@ const Growth = () => {
         duration: 1000
     })
     return (
-        <div className='growth' id='growth' data-aos='fade-left'>
+        <div className='growth' id='growth' data-aos='fade-right'>
             <p>GROWTH & CONNECTIONS</p>
             <div className='growth-heading'>GROWING EVERY SINGLE DAY</div>
             <a href='growth-btn'>START</a>
