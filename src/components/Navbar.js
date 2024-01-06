@@ -42,7 +42,7 @@ const Navbar = () => {
                     <input id='searchInput' type="text"></input>
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
-                <button className='btn'>GO TO DAPP</button>
+                <button className='btn'>GO TO APP</button>
             </div>
 
         </div>
