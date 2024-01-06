@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Serium/static/css/main.a097b679.css",
-    "main.js": "/Serium/static/js/main.22712f7e.js",
+    "main.js": "/Serium/static/js/main.a847175e.js",
     "static/js/787.b39f73bd.chunk.js": "/Serium/static/js/787.b39f73bd.chunk.js",
     "static/media/bg.jpg": "/Serium/static/media/bg.1495bef7a67194e0cc1c.jpg",
     "static/media/logo.png": "/Serium/static/media/logo.a4ae5de7b3a52587ca44.png",
     "index.html": "/Serium/index.html",
     "main.a097b679.css.map": "/Serium/static/css/main.a097b679.css.map",
-    "main.22712f7e.js.map": "/Serium/static/js/main.22712f7e.js.map",
+    "main.a847175e.js.map": "/Serium/static/js/main.a847175e.js.map",
     "787.b39f73bd.chunk.js.map": "/Serium/static/js/787.b39f73bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a097b679.css",
-    "static/js/main.22712f7e.js"
+    "static/js/main.a847175e.js"
   ]
 }
